@@ -72,8 +72,7 @@ Library-Management-System/
    Update your Hibernate/Spring datasource config with your PostgreSQL credentials:
    ```properties
    db.url=jdbc:postgresql://localhost:5432/library_db
-   db.username=your_username
-   db.password=your_password
+
    ```
 
 4. **Build the project**
@@ -86,9 +85,8 @@ Library-Management-System/
    Copy `target/Library-Management-System.war` to your Tomcat `webapps/` directory and start the server.
 
 6. **Access the application**
-   ```
    http://localhost:8080/Library-Management-System/
-   ```
+  
 
 ## 🔄 Core Business Logic
 
