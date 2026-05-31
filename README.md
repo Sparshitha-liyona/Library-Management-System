@@ -26,25 +26,24 @@ A web-based Library Management System built with **Spring MVC**, **Hibernate**, 
 
 ## 📁 Project Structure
 
+```
 Library-Management-System/
 ├── src/
 │   └── main/
 │       ├── java/
 │       │   └── com/jsp/library/
 │       │       ├── controller/       # Spring MVC Controllers
-│       │       ├── dao/              # Data Access Objects (BookDao, StudentDao, IssueDao)
-│       │       ├── entity/           # JPA Entities (Book, Student, Issue)
+│       │       ├── dao/              # Data Access Objects
+│       │       ├── entity/           # JPA Entities
 │       │       └── service/          # Business Logic
-│       │           ├── BookService.java
-│       │           ├── StudentService.java
-│       │           └── IssueService.java
 │       ├── resources/
-│       │   └── hibernate.cfg.xml     # Hibernate + DB configuration
+│       │   └── hibernate.cfg.xml
 │       └── webapp/
 │           └── WEB-INF/
-│               └── views/            # JSP pages
+│               └── views/
 ├── pom.xml
 └── README.md
+```
 
 ## ⚙️ Prerequisites
 
