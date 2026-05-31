@@ -111,10 +111,6 @@ Library-Management-System/
 | `lombok` | 1.18.44 | Reduces boilerplate (`@AllArgsConstructor`, etc.) |
 | `junit` | 4.13.1 | Unit testing |
 
-## 📸 Screenshots
-
-> Add screenshots of your UI pages here (book list, issue form, student dashboard, etc.)
-
 ## 🤝 Contributing
 
 Contributions are welcome!
